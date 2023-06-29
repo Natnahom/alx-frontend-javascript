@@ -7,5 +7,3 @@ export default class Pricing {
     } else if (!(currency instanceof Currency)) {
       throw new TypeError('Currency must be an instance of class Currency');
     }
-  }
-}
